@@ -29,7 +29,7 @@ python3导入：
 from io import StringIO
 ```
 
-**xrange()函数**
+**xrange()函数**    
 在python2中xrange() 函数用法与 range 完全相同，所不同的是生成的不是一个数组，而是一个生成器。
 在python3中弃用了 xrange() 函数，用range()函数代替，在python3中range()函数生成一个生成器，而不是数组。
 
