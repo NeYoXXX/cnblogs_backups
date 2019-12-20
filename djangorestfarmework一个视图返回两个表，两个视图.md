@@ -28,7 +28,7 @@ class RestaurantSer(PlaceSer):
         model = Restaurant
         fields = "__all__"
 ```
-三、view
+# 三、view
 ```
 class Placeview(mixins.CreateModelMixin,
                  mixins.UpdateModelMixin,
