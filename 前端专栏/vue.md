@@ -51,3 +51,13 @@ UAT环境：UAT，(User Acceptance Test),用户接受度测试 即验收测试�
 
 # javascript中var,let,const的区别用法
 https://www.jianshu.com/p/7be962a355f8
+
+# vue组件
+Vue组件 = Vue实例 = new Vue(options)
+不同的组件options数据的不同
+## 组件的组成
+### 属性
+单向数据流-属性分为自定义属性（props）、原生属性（attrs）和特殊属性（class、style）
+自定义属性：组件`props`中声明的属性
+原生属性：没有声明的属性，默认自动挂载到组件上，设置`inheritAttrs`为`false`可以关闭自动挂载
+特殊属性：挂载到组件根元素上，支持字符串、对象、数组等多种语法
